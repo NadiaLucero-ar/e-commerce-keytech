@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    margin-top: 15%;
+    margin-left: 6%;
+    width: 700px;
+    height: 300px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gridItem{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    margin: 2%;
+    background-color: #444;
+}
